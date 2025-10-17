@@ -1,0 +1,87 @@
+# ------------------------
+# Python general
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+*.log
+*.bak
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Jupyter & Colab
+# ------------------------
+.ipynb_checkpoints
+*.ipynb_save
+*.ipynb_save.tmp
+*.ipynb_convert
+*.ipynb_hidden
+
+# ------------------------
+# Data & outputs
+# ------------------------
+datasets/
+runs/
+results/
+outputs/
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+
+# ------------------------
+# Model weights & checkpoints
+# ------------------------
+*.pt
+*.onnx
+*.weights
+*.engine
+*.ckpt
+*.h5
+
+# ------------------------
+# Temporary & cache files
+# ------------------------
+__pycache__/
+*.tmp
+*.temp
+*.log
+*.out
+*.bak
+*.npy
+*.npz
+*.pkl
+*.dat
+*.cache
+*.zip
+*.tar
+*.gz
+
+# ------------------------
+# Google Drive / Colab paths
+# ------------------------
+/content/drive/
+drive/
